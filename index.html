@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fire-GAME</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(180deg, #101820, #3E4D5C);
+      font-family: 'Quicksand', sans-serif;
+      text-align: center;
+      padding: 20px;
+      margin: 0px;
+      
+    }
+    
+    .box {
+      background: linear-gradient(#7C98B5, #0F1624);
+      margin: 30px auto;
+      padding: 20px;
+      width: 90%;
+      max-width: 400px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      border: 2px solid #FFFFFFA3;
+    }
+     .box1 {
+      background: linear-gradient(#7C98B5, #0F1624);
+      margin: 30px auto;
+      padding: 20px;
+      width: 90%;
+      max-width: 400px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      border: 2px solid #FFFFFFA3;
+        }
+    .tulisan {
+      color: #FFFFFF;
+    }
+    
+    .gambar_game {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .gambar_ye {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10%;
+      float: left;
+      margin-top: 10%;
+      border: 2px solid #FFFFFF;
+    }
+    h3 {
+      margin: 10px 0;
+      color: #000;
+    }
+
+    .download a {
+      display: inline-block;
+      background: #D200FF;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+
+    .download a:hover {
+      background: #9C00CC;
+      transform: scale(1.05);
+    }
+
+    /* 🌸 Gambar preview geser */
+    .preview-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch; /* biar smooth di HP */
+      margin: 10px 0;
+    }
+
+    .preview-container {
+      display: flex;
+      gap: 10px;
+      padding-bottom: 10px;
+    }
+
+    .preview-container img {
+      max-width: 200px;
+      max-height: 200px;
+      border-radius: 10px;
+      object-fit: cover;
+      flex: 0 0 auto; /* biar gak mengecil */
+      border: 2px solid #fff;
+    }
+    .preview-wrapper::-webkit-scrollbar {
+      display: none;
+    }
+    .tanda {
+      left: 10px;
+      background: #0000004D;
+      border-radius: 100%;
+      border: none;
+      color: white;
+    }
+    .pencarian {
+      display: inline-block;
+      background: linear-gradient(#34364F);
+      color: white;
+      text-decoration: none;
+      padding: 10px 10px;
+      border-radius: 20px;
+      border: 2px solid #FFFFFF;
+      box-shadow: 0 0 10px rgba(9,0,0,9.9);
+      position: fixed;
+      width: 90%;
+      right: 2%;
+      left: 2%;
+    }
+    .h1 {
+      color: #FFFFFF;
+    }
+    .subscribe a {
+      color: #FFFFFF;
+    }
+  </style>
+</head>
+<body>
+  <div id="particles"></div>
+   <div class="pencarian">
+   <p>Ketik nama game untuk mencari 😁</p>
+     
+   <input type="text" id="searchBox" placeholder="Cari game...">
+   </div>
+   <br> <br> <br> <br>
+  <h1 class="tulisan">DOWNLOAD GAME GRATIS</h1>
+  <p class="tulisan">lihat preview dan download gamenya lewat Media Fire. jangan takut ada virus. karena 100% aman 😁</p>
+  
+       <div class="box">
+    <img class="gambar_game" src="https://images.steamusercontent.com/ugc/2175861708815738670/5695E39364454AF02DD47803878965DFA7B382E8/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="Gambar Game">
+    <h3>worldbox (premium)</h3>
+    <!-- 📸 Gambar preview -->
+    <div class="preview-wrapper">
+      <div class="preview-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuxP_XQS7o507Gol9QrApODae95K2mqwonrNvvZFP8lQ&s=10" alt="Preview 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuUTirM_W9-nkcJ7nZvbxbgyBYP20UobsuY3t8FWRj4bdAbbuJVVXAsJQ&s=10" alt="Preview 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr1HSE4V2sb38QJNd9qvuOm-WlMZYetN4ounhgPbIsOQ&s=10" alt="Preview 3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpUO5lmya73-SCz83OSUhGEMpSOXHSenBboY9xal_hKDt0Nyh9hDzFgTLp&s=10" alt="Preview 4">
+      </div>
+    </div>
+    
+    <div class="download">
+      <a href="https://www.mediafire.com/file/ouaift7bp51nmdc/worldbox.sandbox.apk/file" target="_blank">Download Game Ini</a>
+    </div>
+    <br>
+    <button class="tanda" onclick="alert ('versi 0.22.21   124-MB   4,3★') ">?</button>
+  </div>
+  <!--jarak-->
+  
+  <div class="box">
+    <img class="gambar_game" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkpiW4UxQl0l_afQ_716kzBeQwX-ut27JUpr0SypLGQQ&s=10" alt="Gambar Game">
+    <h3>Stardew Valley</h3>
+    
+    <!-- 📸 Gambar preview -->
+    <div class="preview-wrapper">
+      <div class="preview-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBSIdPjMSpwLrVyJDkrDmE062hgPdiqG0hqAx-rfr0htzyttDIvduv0sbcldIGhxbQQJ_ZLhRNftRI7pkeyibaOdrIbe3NzkBCx0tXbrU" alt="Preview 1">
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQRC0t_pV23akjv2Sg0garljdFoCfoxBMGksEIGwUy0MasnB2N7MzrAfklM0L4rItwSUdcDwV9IyLSBh4EN0tc-4eVLPCWSJC99lRIWlA" alt="Preview 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSREuZjalozfNF6QMinD5xv0kagulRppj0TFlpju_L5kA&s=10" alt="Preview 3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgclSuABC_bru6ZqhUOtLB916Vru1SGt2h7bjhtFzS7sKDm4AUfW73Mvc&s=10" alt="Preview 4">
+      </div>
+    </div>
+    
+    <div class="download">
+      <a href="https://www.mediafire.com/file/wfmhmxluaw686jb/stardew_valley.apk/file" target="_blank">Download Game Ini</a>
+    </div>
+    <br>
+        <button class="tanda" onclick="alert ('game pertanian RPG seru. Pindahlah ke pedesaan, dan kembangkan kehidupan baru dalam RPG pertanian terbuka pemenang penghargaan ini! Dengan lebih dari 50 jam konten gameplay dan fitur khusus Mobile baru, seperti penyimpanan otomatis dan beberapa opsi kontrol.') ">?</button>
+  </div>
+         
+  <div class="box1">
+    <div><img class="gambar_ye" src="big.png" alt="">
+    </div>
+    <div class="subscribe">
+    <a href="https://youtube.com/@firepixselid?si=XaCncgqKcaORHS8w" target="_blank"><h1>SUBSCRIBE CHANNEL FIREPIXELID</h1></a>
+    </div>
+  </div>
+         
+  <!--jarak -->
+    <div class="box">
+    <img class="gambar_game" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuvF35Lppll7PPihHpH-qds_TZM1Mu-PyEDQ&usqp=CAU" alt="Gambar Game">
+    <h3>path of giants</h3>
+    
+    <!-- 📸 Gambar preview -->
+    <div class="preview-wrapper">
+      <div class="preview-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Ya_3QB90SQs7iCG94yo1IUbNMoJZiALoaJX6UyxqPUme07ZH9lloFObp&s=10" alt="Preview 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeHMQ2iW3H6a3JW3d8Gr0PYtMFJyL8J9VJ_sdTxpIi1_IehrgIDPqGYI1iVCYEOaWhqDqVPhwtfIonsd0iNGiLho4MXsOyyHAJoGZMpV0" alt="Preview 2">
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbU-6nTAESgGc29pGrC2yWOmtyZQoCA4EhOSf3DODKycLeTViw6mDclgHY9sZkHMED1STyY5s-bFUcCOJFz8bYHNUXVEezDoO49FT-5-Q" alt="Preview 3">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRj__nGS53UZUnGcd6I0TAUwQ8q34vjCmv-Scu3Qy-i_IzkbkAZMRJjziA71nzJyx-u1yXdv10NOi1kDZAlXFLYx2dknEn10Gy45YbwE6Q" alt="Preview 4">
+      </div>
+    </div>
+    
+    <div class="download">
+      <a href="https://www.mediafire.com/file/ttmbfem4xh3pv6a/path_of_giants_v3.0.0.apk/file" target="_blank">Download Game Ini</a>
+    </div>
+    <br>
+    <button class="tanda" onclick="alert ('versi 3.0.0   107MB   4.2★') ">?</button>
+  </div>
+  <!--jarak-->
+      <div class="box">
+    <img class="gambar_game" src="https://i.pinimg.com/474x/f8/ac/fe/f8acfe5742b56f0e8ee998b507706817.jpg" alt="Gambar Game">
+    <h3>GTA SAN ANDREAS</h3>
+    
+    <!-- 📸 Gambar preview -->
+    <div class="preview-wrapper">
+      <div class="preview-container">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP9aV9EHRwQgWOMonUl128RXHUGKGgy7uJiWoCdtLyBSUKI5sDDvr6s-IUzY6UzZUMa1kLsxF6q5-TCC-wDEBgXD8p4dppn19Hf1FdhdET8Bq65X2RrqVjz1_RfS6Ou-8C1NrtWldd1CE/s640/cj+gta+san+andreas.jpg" alt="Preview 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdTPFqTRw3iYHYAWzfhjx1Xd9cEpkYXdHr4KKxHAFZqg&s=10" alt="Preview 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtVrDrlo_toDd95TLn4MeIGXQTjhq8USq9wKebMUTDKBg1NP8WFdtVj2Y&s=10" alt="Preview 3">
+        <img src="https://img.utdstc.com/screen/649/ec2/649ec2315fdcae30ea40fefe72712a53c3a96f5bbce02038269ce611652131cd:600" alt="Preview 4">
+      </div>
+    </div>
+    
+    <div class="download">
+      <a href="https://happymod.cloud/grand-theft-auto-san-andreas-apk-app-mod/com.rockstargames.gtasa/com.mod.grand-theft-auto-san-andreas-mod-apk-2-11-277.html" target="_blank">Download Game Ini</a>
+    </div>
+    <br>
+    <button class="tanda" onclick="alert ('') ">?</button>
+  </div>
+    <!--jarak-->
+      <div class="box">
+    <img class="gambar_game" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu2GzPB1sEnroZKh2YraoJAIZ3N6lmSXAufpdNw8Xr3w&s=10" alt="Gambar Game">
+    <h3>Terraria</h3>
+    
+    <!-- 📸 Gambar preview -->
+    <div class="preview-wrapper">
+      <div class="preview-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8wID8G6TQKBqqGv8T9RIuTaBRMtccLsWfGUv0wXSSw&s=10" alt="Preview 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmT3nSsXUjJ8SydubT_EShnNzuO1zAPcuD3bq2urn6eQviAONcokaSIaU&s=10" alt="Preview 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTfku3pBhxCxf_rzTJtIZeSLdykOGHuGpuT9gdNakBXQ&s=10" alt="Preview 3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9YcJviaKuZoy9HgfIlOFuyy0aP-kYxHXn1aN2d6Q55MZO2X5DhIrAqle1RkboXzu7gej4F6aQ2r5WqR_vriuFJutAbJqqSABQjl6VEQ&s=10" alt="Preview 4">
+      </div>
+    </div>
+    
+    <div class="download">
+      <a href="https://www.mediafire.com/file/ewja6h209kpebps/Terraria.apk/file" target="_blank">Download Game Ini</a>
+    </div>
+    <br>
+    <button class="tanda" onclick="alert ('') ">?</button>
+  </div>
+    <footer>
+  <p class="h1">© 2025 FirepixelID. SUBSCRIBE CHANNEL FIREPIXELID</p>
+</footer>
+</body>
+<script>
+  // 🔎 Fungsi pencarian langsung
+  const searchBox = document.getElementById('searchBox');
+  const boxes = document.querySelectorAll('.box');
+
+  searchBox.addEventListener('input', () => {
+    const keyword = searchBox.value.toLowerCase();
+    boxes.forEach(box => {
+      const title = box.querySelector('h3').textContent.toLowerCase();
+      box.style.display = title.includes(keyword) ? 'block' : 'none';
+    });
+  });
+  // Simpan posisi terakhir user
+window.addEventListener('beforeunload', () => {
+  localStorage.setItem('lastPage', window.location.href);
+});
+
+// Saat aplikasi dibuka lagi
+window.addEventListener('load', () => {
+  const lastPage = localStorage.getItem('lastPage');
+  if (lastPage && lastPage !== window.location.href) {
+    // Bisa arahkan langsung ke halaman terakhir, tanpa reload manual
+    window.location.href = lastPage;
+  }
+});
+</script>
+</script>
+</html>
